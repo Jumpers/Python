@@ -1,0 +1,24 @@
+TIME:2013-10-23 21:39:00
+GUID:45a7326a2eac77e3f09ef6669b2f9839
+QUA:ADRQBA26_B1/261023&X5MTT_3/000000&ADR&0030005014&GT-I9100&10000_10000&9231&Android4.1.2&V4
+TYPE:java.lang.RuntimeException
+MSG:java.lang.RuntimeException: Could not read input channel file descriptors from parcel.
+	at android.view.InputChannel.nativeReadFromParcel(Native Method)
+	at android.view.InputChannel.readFromParcel(InputChannel.java:135)
+	at android.view.IWindowSession$Stub$Proxy.add(IWindowSession.java:523)
+	at android.view.ViewRootImpl.setView(ViewRootImpl.java:666)
+	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:345)
+	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:220)
+	at android.widget.Toast$TN.handleShow(Toast.java:431)
+	at android.widget.Toast$TN$1.run(Toast.java:348)
+	at android.os.Handler.handleCallback(Handler.java:615)
+	at android.os.Handler.dispatchMessage(Handler.java:92)
+	at android.os.Looper.loop(Looper.java:137)
+	at android.app.ActivityThread.main(ActivityThread.java:4921)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1027)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:794)
+	at dalvik.system.NativeStart.main(Native Method)
+
+

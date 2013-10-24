@@ -1,0 +1,63 @@
+TIME:2013-10-24 09:10:44
+GUID:ad53ff4c2d2662ad5ef647f5a0e3ff10
+QUA:ADRQBA26_B1/261023&X5MTT_3/000000&ADR&0030005014&HTCIncredibleS&0_10000&9231&Android2.3.5&V4
+TYPE:java.lang.NoClassDefFoundError
+MSG:java.lang.NoClassDefFoundError: com.tencent.mtt.spcialcall.sdk.MttLoader
+	at com.tencent.qube.QubeBrowserDispatchActivity.onCreate(QubeBrowserDispatchActivity.java:34)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1072)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1836)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1893)
+	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1054)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:150)
+	at android.app.ActivityThread.main(ActivityThread.java:4385)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:849)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:607)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+TIME:2013-10-24 09:17:04
+GUID:ad53ff4c2d2662ad5ef647f5a0e3ff10
+QUA:ADRQBA26_B1/261024&X5MTT_3/000000&ADR&0030005014&HTCIncredibleS&0_10000&9231&Android2.3.5&V4
+TYPE:java.lang.NoClassDefFoundError
+MSG:java.lang.NoClassDefFoundError: com.tencent.mtt.spcialcall.sdk.MttLoader
+	at com.tencent.qube.QubeBrowserDispatchActivity.onCreate(QubeBrowserDispatchActivity.java:34)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1072)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1836)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1893)
+	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1054)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:150)
+	at android.app.ActivityThread.main(ActivityThread.java:4385)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:849)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:607)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+TIME:2013-10-24 09:33:11
+GUID:ad53ff4c2d2662ad5ef647f5a0e3ff10
+QUA:ADRQBA26_B1/261024&X5MTT_3/000000&ADR&0030005014&HTCIncredibleS&0_10000&9231&Android2.3.5&V4
+TYPE:java.lang.NoClassDefFoundError
+MSG:java.lang.NoClassDefFoundError: com.tencent.mtt.spcialcall.sdk.MttLoader
+	at com.tencent.qube.QubeBrowserDispatchActivity.onCreate(QubeBrowserDispatchActivity.java:34)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1072)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1836)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1893)
+	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1054)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:150)
+	at android.app.ActivityThread.main(ActivityThread.java:4385)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:849)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:607)
+	at dalvik.system.NativeStart.main(Native Method)
+
+
