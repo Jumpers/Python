@@ -25,9 +25,9 @@ public class MyFirstAndroidAppActivity extends Activity {
         
         // getLocation(); 
         
-        // playMusicFromWeb();
+         playMusicFromWeb();
         
-         forceError();
+//         forceError();
     }
     public void forceError() {
         if(true) {
