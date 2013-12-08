@@ -31,7 +31,7 @@ public class MyFirstAndroidAppActivity extends Activity {
     }
     public void forceError() {
         if(true) {
-        	Log.e(DEBUG_TAG, "æˆ‘è§‰å¾—logåº”è¯¥æ‰“å°åœ¨è¿™é‡Œ");
+        	Log.e(DEBUG_TAG, "ÕâÊÇÎÒµÄµÚÒ»ĞĞ×¢ÊÍ");
             throw new Error("Whoops");
         }
     }
