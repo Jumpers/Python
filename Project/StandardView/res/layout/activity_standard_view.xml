@@ -1,22 +1,62 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".StandardViewActivity" >
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"	
+	    android:orientation="vertical"
+	    android:id="@+id/ll"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    tools:context=".StandardViewActivity">	    
+	<Button 
+	    android:id="@+id/bt1"
+	    android:text="button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/drawable_bg"
+	    android:textStyle="bold">
+	</Button>	  
+	<TextView 
+	    android:id="@+id/tv1"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:clickable="true">
+	</TextView>
 
-    <TextView
-        android:id="@+id/textview1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mutiline"
-        android:textColor="#000"
-        android:drawableLeft="@drawable/ic_launcher"
-        android:textColorLink="#00F"
-        android:autoLink="all"
-     />
+	<ToggleButton
+	    android:layout_width="79dp"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/drawable_bg"
+	    android:textOn="On"
+	    android:textOff="Off"/>
+	<CheckBox 
+	    android:id="@+id/checkbox1"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:text="请选择"
+	    android:button="@null"
+	    android:drawableRight="@drawable/drawable_ck"
+	/>
+	<RadioGroup
+	    android:id="@+id/radiogroup"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+	    <RadioButton
+	        android:id="@+id/radio1"
+	        android:text="中国"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <RadioButton
+	        android:id="@+id/radio2"
+	        android:text="日本"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    <RadioButton
+	        android:id="@+id/radio3"
+	        android:text="法国"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />    
+	</RadioGroup>
 
-</RelativeLayout>
+</LinearLayout>
