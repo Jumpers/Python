@@ -1,0 +1,4 @@
+´ò¿ªView Server£º
+adb shell service call window 1 i32 4939
+¹Ø±ÕView Server£º
+adb shell service call window 2 i32 4939
