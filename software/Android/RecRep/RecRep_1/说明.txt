@@ -1,0 +1,19 @@
+此工具主要是实现录制和回放功能，使用方法如下：
+1.编辑_record.bat
+  adb shell /data/local/record 参数1：参数1为录制生成的文件名及路径；也可以不指定，即为空（若不指定，则默认生成/sdcard/events文件）
+
+  如：adb shell /data/local/record /sdcard/QQ_events,其中/sdcard/QQ_events是录制生成的文件名及路径
+
+2.编辑_run.bat
+  adb shell /data/local/replay 参数1 参数2；
+  参数1为回放需调用的文件，参数2为回放的次数（此处参数1和参数2均可以为空，如参数1为空，则默认调用/sdcard/events文件；若参数2为空，则该程序回放的次数不限制）
+
+如：adb shell /data/local/record /sdcard/QQ_events 5，即回放/sdcard/QQ_events文件5次
+
+3.运行_setup.bat
+
+4.运行_record.bat(录制)
+
+5.运行_run.bat(回放)
+
+注：每次修改_record.bat或_run.bat文件后，均需重新运行一次_setup.bat

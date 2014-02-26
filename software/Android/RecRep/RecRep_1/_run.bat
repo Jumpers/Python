@@ -1,0 +1,1 @@
+adb shell /data/local/replay /sdcard/events 1
