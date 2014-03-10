@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">StandardView</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">开心的时候多听听歌。</string>
     <string name="mutiline">http://www.baidu.com   \n   elment@msn.cn \n 13520149767</string>
-
 </resources>
