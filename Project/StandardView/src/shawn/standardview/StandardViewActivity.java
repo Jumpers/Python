@@ -37,13 +37,13 @@ public class StandardViewActivity extends Activity {
 				// TODO Auto-generated method stub
 				switch (checkedId) {
 				case R.id.radio1:
-					Toast.makeText(StandardViewActivity.this, "你点击了第一个。", Toast.LENGTH_SHORT).show() ;
+					Toast.makeText(StandardViewActivity.this, "hell world", Toast.LENGTH_SHORT).show() ;
 					break;
 				case R.id.radio2:
-					Toast.makeText(StandardViewActivity.this, "你点击了第二个。", Toast.LENGTH_SHORT).show() ;
+					Toast.makeText(StandardViewActivity.this, "hell world", Toast.LENGTH_SHORT).show() ;
 					break ;
 				case R.id.radio3:
-					Toast.makeText(StandardViewActivity.this, "你点击了第三个。", Toast.LENGTH_SHORT).show() ;
+					Toast.makeText(StandardViewActivity.this, "hell world", Toast.LENGTH_SHORT).show() ;
 					break ;
 				default:
 					break;
@@ -81,7 +81,7 @@ public class StandardViewActivity extends Activity {
 			public void onClick(View widget) {
 				// TODO Auto-generated method stub
 				Log.i("shawn.xiao", "click this.") ;
-				Toast.makeText(StandardViewActivity.this, "你点击了。", Toast.LENGTH_SHORT).show() ;
+				Toast.makeText(StandardViewActivity.this, "hello world", Toast.LENGTH_SHORT).show() ;
 			}
 		};
 		spannableStringBuilder.setSpan(clickableSpan, 7, 17, Spannable.SPAN_INCLUSIVE_INCLUSIVE) ;
