@@ -1,0 +1,19 @@
+D:\git\Python\Project\StandardView\gen\shawn\standardview\R.java \
+ : D:\git\Python\Project\StandardView\res\drawable\button1.png \
+D:\git\Python\Project\StandardView\res\drawable\button2.png \
+D:\git\Python\Project\StandardView\res\drawable\drawable_bg.xml \
+D:\git\Python\Project\StandardView\res\drawable\drawable_ck.xml \
+D:\git\Python\Project\StandardView\res\drawable\ic_launcher.png \
+D:\git\Python\Project\StandardView\res\drawable\standardview.xml \
+D:\git\Python\Project\StandardView\res\drawable-hdpi\ic_launcher.png \
+D:\git\Python\Project\StandardView\res\drawable-mdpi\ic_launcher.png \
+D:\git\Python\Project\StandardView\res\drawable-xhdpi\ic_launcher.png \
+D:\git\Python\Project\StandardView\res\drawable-xxhdpi\ic_launcher.png \
+D:\git\Python\Project\StandardView\res\layout\activity_standard_view.xml \
+D:\git\Python\Project\StandardView\res\menu\standard_view.xml \
+D:\git\Python\Project\StandardView\res\values\dimens.xml \
+D:\git\Python\Project\StandardView\res\values\strings.xml \
+D:\git\Python\Project\StandardView\res\values\styles.xml \
+D:\git\Python\Project\StandardView\res\values-sw600dp\dimens.xml \
+D:\git\Python\Project\StandardView\res\values-sw720dp-land\dimens.xml \
+D:\git\Python\Project\StandardView\bin\AndroidManifest.xml \
