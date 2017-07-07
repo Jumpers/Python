@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>快佳机械设备有限公司发货单</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/semantic.css">
+	<script type="text/javascript" src="css/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="css/semantic.min.js"></script>
+</head>
+<body>
+	<h1 class="ui head">快佳机械设备有限公司发货单</h1>
+	
+	<form class="ui form attached fluid segment">
+	  <div class="three fields">
+	  	<div class="two fields">
+	  		<label for="Sender">发货方</label>
+	  		<input type="text" name="Sender" id="Sender" value="南宁市快佳机械设备有限公司">
+	  	</div>
+	  	<div class="two fields">
+	  		<label for="Receiver">收货方</label>
+	  		<input type="text" name="Receiver" id="Receiver" value="南宁市快佳机械设备有限公司">
+	  	</div>
+	  	<div class="two fields">
+	  		<label for="CarNo">车牌号</label>
+	  		<input type="text" name="CarNo" id="CarNo" value="南宁市快佳机械设备有限公司">
+	  	</div>
+	  </div>
+	  <div class="three fields">
+	  	<div class="two fields">
+	  		<label for="SendLinkInfo">联系方式</label>
+	  		<input type="number" name="SendLinkInfo" id="SendLinkInfo" value="13878174499">
+	  	</div>
+	  	<div class="two fields">
+	  		<label for="ReceiverLinkInfo">联系方式</label>
+	  		<input type="number" name="ReceiverLinkInfo" id="ReceiverLinkInfo" value="13878174499">
+	  	</div>
+	  	<div class="two fields">
+	  		<label for="SendDate">发货日期</label>
+	  		<input type="date" name="SendDate" id="SendDate" value="">
+	  	</div>
+	  </div>
+
+
+	  <div>
+	  	<table class="ui celled table">
+			<thead align="center" white-space="nowrap">
+				<tr>
+					<th>商品名称</th>
+					<th>材料规格</th>
+					<th>商品规格(mm)</th>
+					<th>单重(Kg)</th>
+					<th>数量(条)</th>
+					<th>总重(Kg)</th>
+					<th>单价(元/Kg)</th>
+					<th>总金额(元)</th>
+					<th>备注</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="text" name="productName" value="地脚螺丝"></td>
+					<td><input type="text" name="materialSpec" value="45#"></td>
+					<td><input type="text" name="productSpec" value="35*200"></td>
+					<td><input type="number" name="singleWeight" value="6.5"></td>
+					<td><input type="number" name="quantity" value="1000"></td>
+					<td><input type="number" name="totalWeight" value="6500"></td>
+					<td><input type="number" name="price" value="5.2"></td>
+					<td><input type="number" name="totalAmount" value="3435555"></td>
+					<td><input type="text" name="remark" value=""></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>合计金额大写</td>
+					<td colspan="8"><input type="text" name="totalAmountUpper" id="totalAmountUpper" value="壹萬贰仟叁佰陆拾圆" disabled="true"></td>
+				</tr>
+			</tfoot>
+		</table>
+	  </div>
+	  <div>
+	  	<div></div>
+	  	<div></div>
+	  </div>
+	  
+</form>
+</body>
+</html>
+
+
+	
