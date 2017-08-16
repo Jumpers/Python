@@ -1,0 +1,20 @@
+body {
+	color: #747704;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+a,a:hover,a:before,a:visited,a:link {
+	text-decoration: none;
+}
+
+.title-logo{
+	margin-top: 20px;
+}
