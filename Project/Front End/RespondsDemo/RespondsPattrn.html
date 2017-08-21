@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RespondsPattrn</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0;">
+	<style type="text/css">
+		.container{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.a1,.b1,.c1,.d1{
+			height: 80px;
+		}
+
+		.a1{
+			background-color: yellow;
+			width: 100%;
+		}
+		.b1{
+			background-color: blue;
+			width: 50%;
+		}
+		.c1{
+			background-color: green;
+			width: 50%;
+		}
+		.d1{
+			background-color: gray;
+			width: 100%;
+		}
+
+		@media screen and (min-width: 800px){
+			.a1,.b1,.c1,.d1{
+			height: 150px;
+		}
+
+		.a1{
+			background-color: yellow;
+			width: 100%;
+			order: 4;
+		}
+		.b1{
+			background-color: blue;
+			width: 50%;
+			order: 3;
+		}
+		.c1{
+			background-color: green;
+			width: 50%;
+			order: 2;
+		}
+		.d1{
+			background-color: gray;
+			width: 100%;
+			order: 1;
+		}
+		}
+		
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="a1"></div>
+	<div class="b1"></div>
+	<div class="c1"></div>
+	<div class="d1"></div>
+	
+</div>
+</body>
+</html>
+
+
