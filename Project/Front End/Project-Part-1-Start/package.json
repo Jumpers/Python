@@ -15,6 +15,6 @@
     "grunt-mkdir": "~0.1.2"
   },
   "dependencies": {
-    "grunt-responsive-images": "^0.1.6"
+    "grunt-responsive-images": "^1.10.1"
   }
 }
